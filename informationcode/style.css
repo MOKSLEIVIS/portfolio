@@ -1,0 +1,197 @@
+body {
+    padding: 0;
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: rgb(14, 14, 14);
+}
+
+header {
+    position: relative;
+    display: flex;
+    padding: 5px;
+    margin: 0;
+    background-color: rgb(26, 26, 26);
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+    box-shadow: 0 0 10px 2px rgba(255, 255, 255, 0.7);
+}
+
+header a {
+    text-decoration: none;
+}
+
+header nav ul {
+    list-style-type: none;
+    position: relative;
+    display: flex;
+    padding: 0;
+    margin: 0;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 40px;
+}
+
+header h1 {
+    display: flex;
+    padding: 0;
+    margin: 0;
+    font-size: 36px;
+    font-weight: lighter;
+    color: rgb(255, 255, 255);
+}
+
+main {
+    position: relative;
+    display: flex;
+    padding: 0;
+    margin: 0;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+}
+
+.main-wrapper {
+    position: relative;
+    display: flex;
+    padding: 0;
+    margin: 0;
+    flex-direction: column;
+    width: 70%;
+}
+
+.intro-div {
+    position: relative;
+    display: flex;
+    padding: 0;
+    margin: 0;
+    flex-direction: column;
+}
+
+.intro-div {
+    position: relative;
+    display: flex;
+    padding: 30px 0 30px 0;
+    margin: 0;
+    flex-direction: column;
+    align-items: center;
+}
+
+.intro-div h1 {
+    color: rgb(255, 255, 255);
+    padding: 0;
+    margin: 0;
+}
+
+.intro-div p {
+    color: rgb(255, 255, 255);
+    padding: 0;
+    margin: 0;
+}
+
+.code-snippets-wrapper {
+    position: relative;
+    display: flex;
+    padding: 0;
+    margin: 0;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.code-snippet-div {
+    position: relative;
+    display: flex;
+    padding: 0;
+    margin: 0;
+    flex-direction: column;
+}
+
+.code-snippet-h1 {
+    color: rgb(255, 255, 255);
+    padding: 0;
+    margin: 0;
+    font-weight: 400;
+    font-size: 42px;
+}
+
+.code-snippet-p {
+    color: rgb(255, 255, 255);
+    padding: 0;
+    margin: 0;
+    font-size: 24px;
+    font-weight: lighter;
+}
+
+.code-block {
+    position: relative;
+    display: flex;
+    padding: 10px;
+    border-radius: 15px;
+    margin: 10px 0 0 0;
+    flex-direction: column;
+    background-color: rgb(25, 25, 25);
+}
+
+.space-right {
+    display: flex;
+    padding: 0 8px 0 0 !important;
+    margin: 0;
+}
+
+.space-left {
+    position: relative;
+    display: flex;
+    padding: 0 0 0 8px !important;
+    margin: 0;
+}
+
+.no-tabs {
+    position: relative;
+    display: flex;
+    padding: 0;
+    margin: 0;
+    flex-direction: row;
+    text-align: center;
+    align-items: center;
+}
+
+.one-tab {
+    position: relative;
+    display: flex;
+    padding: 0 0 0 40px;
+    margin: 0;
+    flex-direction: row;
+    text-align: center;
+    align-items: center;
+}
+
+.code-style {
+    display: flex;
+    padding: 0;
+    margin: 0;
+    font-family: monospace;
+    font-size: 22px;
+    text-align: center;
+}
+
+.code-theme-white {
+    color: rgb(255, 255, 255);
+}
+
+.code-theme-green {
+    color: rgb(104, 191, 114);
+}
+
+.code-theme-blue {
+    color: rgb(100, 159, 211);
+}
+
+.code-theme-light-blue {
+    color: rgb(146, 189, 226);
+}
+
+.code-theme-comment {
+    color: rgb(101, 108, 118);
+}
