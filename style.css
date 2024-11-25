@@ -81,6 +81,7 @@ main {
     width: 128px;
     height: 128px;
     border-radius: 50%;
+    filter: invert(100%);
 }
 
 .message-box {
